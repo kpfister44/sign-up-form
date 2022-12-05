@@ -1,0 +1,130 @@
+body {
+    display: flex;
+}
+button {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    padding: 0px;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 7px;
+    background-color: #066933;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    box-shadow: 0 4px 14px 0 rgba(6, 71, 10, 0.39);
+    transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;  
+}
+.left {
+    padding-left: 3vw;
+}
+.mainContainer {
+    display: flex;
+    border: 1px solid black;
+    font-size: 48px;
+    height: 100vh;
+    width: 100vw;
+}
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("images/massimiliano-morosinotto-3ZZVQjpdCQQ-unsplash.jpg");
+    background-size: 100% 100%;
+    border: 1px solid black;
+    height: 100vh;
+    width: 40vw;
+}
+.logoBanner {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Amatic SC'; 
+    font-size: 48pt;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    background-color: rgba(56, 52, 52, 0.356);
+}
+.photoCredit {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+    font-family: 'Amatic SC'; 
+    font-size: 8pt;
+    color: white;
+    opacity: .6;
+}
+.underline {
+    text-decoration: underline;
+}
+.formContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 100vh;
+    width: 60vw;
+    background-color: whitesmoke;
+}
+.form-title {
+    width: 100%;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+.inner-form-text {
+    background-color: white;
+    box-shadow: 0 6px 20px rgb(93 93 93 / 23%);;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    gap: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.5rem;
+}
+label {
+    padding-bottom: 3px;
+}
+input {
+    padding: 7px;
+    font-size: 0.7rem;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+}
+input:focus {
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+input:hover {
+    box-shadow: rgb(187, 192, 191) 0px 0px 0px 3px;
+}
+.outside-form-text {
+    padding-left: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 90%;
+}
+.login-reminder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8pt;
+    padding-left: 3vw;
+}
+.login {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #066933;
+}
